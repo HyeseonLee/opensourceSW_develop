@@ -190,6 +190,7 @@ public class FetchWeatherService extends Service {
                         .appendQueryParameter(UNITS_PARAM, units)
                         .appendQueryParameter(DAYS_PARAM, Integer.toString(numDays))
                         .appendQueryParameter(APPID_PARAM, "5fd2f2cde90c1533efb95b19c048a528")
+//                        .appendQueryParameter(APPID_PARAM, "885bd341aff0c71c580ef24dacc51c64")
                         .build();
 
                 URL url = new URL(builtUri.toString());
